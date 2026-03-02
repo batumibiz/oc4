@@ -8,26 +8,25 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-#### Added
+### Added
 - Emulation of GLOB_BRACE for Alpine/musl environments:  
   introduced a custom oc_glob() helper function to emulate native glob functionality.
 
-#### Changed
+### Changed
 - Refactored the codebase to replace all glob() calls using the GLOB_BRACE flag with oc_glob() emulator to ensure compatibility with Alpine Linux and other musl-based environments where GLOB_BRACE is unavailable.
 
-#### Deprecated
+### Deprecated
 - Nothing
 
-#### Removed
+### Removed
 - aws/aws-sdk-php package as unused
 
-#### Fixed
-- Various bugs with sku, upc, ean, jan, isbn, mpn.  
-  See issue [#14746](https://github.com/opencart/opencart/issues/14746)
-- Fix viewing embedded Youtube video.  
-  See PR [#15185](https://github.com/opencart/opencart/pull/15185)
+### Fixed
+- [#14746](https://github.com/opencart/opencart/issues/14746) Various bugs with sku, upc, ean, jan, isbn, mpn.
+- [#15185](https://github.com/opencart/opencart/pull/15185) Fix viewing embedded Youtube video.
+- [#14740](https://github.com/opencart/opencart/pull/14740) Renamed total function as they had an incorrect name.
 
-#### Security
+### Security
 - Nothing
 
 
