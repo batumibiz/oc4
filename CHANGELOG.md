@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 - Refactored the codebase to replace all glob() calls using the GLOB_BRACE flag with oc_glob() emulator to ensure compatibility with Alpine Linux and other musl-based environments where GLOB_BRACE is unavailable.
+- [0a8b25a](https://github.com/opencart/opencart/commit/0a8b25aaedae97e1b21784263527941448724693) - Added some additional form text.
 
 ### Deprecated
 - Nothing
@@ -22,10 +23,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - aws/aws-sdk-php package as unused
 
 ### Fixed
-- [#14746](https://github.com/opencart/opencart/issues/14746) Various bugs with sku, upc, ean, jan, isbn, mpn.
-- [#15185](https://github.com/opencart/opencart/pull/15185) Fix viewing embedded Youtube video.
-- [#14740](https://github.com/opencart/opencart/pull/14740) Renamed total function as they had an incorrect name.
-- [#14736](https://github.com/opencart/opencart/pull/14736) Fix disabled products design same as other table lists.
+- [#14746](https://github.com/opencart/opencart/issues/14746) - Various bugs with sku, upc, ean, jan, isbn, mpn.
+- [#15185](https://github.com/opencart/opencart/pull/15185) - Fix viewing embedded Youtube video.
+- [#14740](https://github.com/opencart/opencart/pull/14740) - Renamed total function as they had an incorrect name.
+- [#14736](https://github.com/opencart/opencart/pull/14736) - Fix disabled products design same as other table lists.
 
 ### Security
 - Nothing
