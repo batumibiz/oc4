@@ -9,8 +9,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
-- Emulation of GLOB_BRACE for Alpine/musl environments:  
-  introduced a custom oc_glob() helper function to emulate native glob functionality.
+- Emulation of `GLOB_BRACE` for Alpine/musl environments:  
+  introduced a custom `oc_glob()` helper function to emulate native glob functionality.
 
 ### Changed
 - Refactored the codebase to replace all `glob()` calls using the `GLOB_BRACE` flag with `oc_glob()` emulator to ensure compatibility with Alpine Linux and other musl-based environments where `GLOB_BRACE` is unavailable.
@@ -21,7 +21,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - Nothing
 
 ### Removed
-- aws/aws-sdk-php package as unused
+- `aws/aws-sdk-php` package as unused
+- [d342547](https://github.com/opencart/opencart/commit/d34254714d6d08995851f8fec2ea58987ff2e0ae) - `upload/system/helper/filter.php` as unused
+
 
 ### Fixed
 - [#14746](https://github.com/opencart/opencart/issues/14746) - Various bugs with sku, upc, ean, jan, isbn, mpn.
