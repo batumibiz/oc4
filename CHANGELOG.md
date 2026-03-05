@@ -35,6 +35,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - [#14731](https://github.com/opencart/opencart/issues/14731) - In additional Stores Cookie Policy is not selectable.
 - [#14770](https://github.com/opencart/opencart/issues/14770) - Incorrect glob path used in `admin/controller/common/developer.php`.
 - [#14791](https://github.com/opencart/opencart/pull/14791) - Fix wrong search result pagination.
+- [#14498](https://github.com/opencart/opencart/issues/14498) - Sales order Store - wrong in the order list.
 
 ### Security
 - Nothing
