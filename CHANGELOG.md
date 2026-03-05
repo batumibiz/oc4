@@ -26,7 +26,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - [d342547](https://github.com/opencart/opencart/commit/d34254714d6d08995851f8fec2ea58987ff2e0ae) - `upload/system/helper/filter.php` as unused.
 
 ### Fixed
-- [#14746](https://github.com/opencart/opencart/issues/14746) - Various bugs with sku, upc, ean, jan, isbn, mpn.
+- [#14746](https://github.com/opencart/opencart/issues/14746) - Various bugs with `sku`, `upc`, `ean`, `jan`, `isbn`, `mpn`.
 - [#15185](https://github.com/opencart/opencart/pull/15185) - Fix viewing embedded Youtube video.
 - [#14740](https://github.com/opencart/opencart/pull/14740) - Renamed total function as they had an incorrect name.
 - [#14736](https://github.com/opencart/opencart/pull/14736) - Fix disabled products design same as other table lists.
@@ -36,6 +36,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 - [#14770](https://github.com/opencart/opencart/issues/14770) - Incorrect glob path used in `admin/controller/common/developer.php`.
 - [#14791](https://github.com/opencart/opencart/pull/14791) - Fix wrong search result pagination.
 - [#14498](https://github.com/opencart/opencart/issues/14498) - Sales order Store - wrong in the order list.
+- [#14878](https://github.com/opencart/opencart/issues/14878) - Wrong column used in topic layout methods (`article_id` instead of `topic_id`)
 
 ### Security
 - Nothing
