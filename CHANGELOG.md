@@ -47,6 +47,7 @@ Entries without a reference link were developed exclusively within the [batumibi
 - [#14882](https://github.com/opencart/opencart/issues/14882) - Undefined array key "payment_zones".
 - [#14759](https://github.com/opencart/opencart/pull/14759) - Checkout cart page lists wrong item totals.
 - [#14843](https://github.com/opencart/opencart/pull/14843) - Fix autoloader in storeInstance to ensure proper class loading.
+- [#14822](https://github.com/opencart/opencart/pull/14822) - In Admin, while creating new order, Product is not being added.
 
 ### Security
 - Nothing
