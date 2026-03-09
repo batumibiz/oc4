@@ -55,6 +55,7 @@ Entries without a reference link were developed exclusively within the [batumibi
 - [#14758](https://github.com/opencart/opencart/issues/14758) - Unnecessary parameter
 - [#14756](https://github.com/opencart/opencart/pull/14756) - Order files are not displaying in the admin order details page.
 - [#14764](https://github.com/opencart/opencart/issues/14764) - Admin login as customer not working.
+- [#14886](https://github.com/opencart/opencart/pull/14886) - Fix Admin Filter Submit logout.
 
 ### Security
 - Nothing
