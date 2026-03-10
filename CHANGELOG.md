@@ -58,6 +58,7 @@ Entries without a reference link were developed exclusively within the [batumibi
 - [#14764](https://github.com/opencart/opencart/issues/14764) - Admin login as customer not working.
 - [#14886](https://github.com/opencart/opencart/pull/14886) - Fix Admin Filter Submit logout.
 - [#14895](https://github.com/opencart/opencart/issues/14895) - Should use array_merge
+- [#forum](https://forum.opencart.com/viewtopic.php?t=235946#p880856) - Error when deleting a product from Wishlist
 
 ### Security
 - Nothing
