@@ -30,6 +30,7 @@ Entries without a reference link were developed exclusively within the [batumibi
 - [#14780](https://github.com/opencart/opencart/pull/14780) - Admin Filter Improvements.
 - [#14891](https://github.com/opencart/opencart/pull/14891) - To collect cache files, do it only if the random has fallen to the cleanup.
 - Latest Orders table header highlighted
+- Removed unnecessary dividing lines in forms
 
 ### Removed
 - `aws/aws-sdk-php` package as unused.
