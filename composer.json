@@ -3,6 +3,19 @@
   "description": "OpenCart",
   "type": "project",
   "license": "GPL-3.0-or-later",
+  "keywords": [
+    "opencart",
+    "ecommerce",
+    "framework",
+    "opensource"
+  ],
+  "homepage": "https://www.opencart.com/",
+  "support": {
+    "issues": "https://github.com/opencart/opencart/issues",
+    "forum": "https://forum.opencart.com/",
+    "wiki": "https://github.com/opencart/opencart/wiki",
+    "docs": "http://docs.opencart.com/"
+  },
   "config": {
     "vendor-dir": "www/system/storage/vendor/"
   },
