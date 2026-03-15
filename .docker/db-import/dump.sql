@@ -1963,7 +1963,7 @@ CREATE TABLE `oc_customer` (
   `date_added` datetime DEFAULT NULL,
   PRIMARY KEY (`customer_id`),
   KEY `email` (`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1972,6 +1972,8 @@ CREATE TABLE `oc_customer` (
 
 LOCK TABLES `oc_customer` WRITE;
 /*!40000 ALTER TABLE `oc_customer` DISABLE KEYS */;
+INSERT INTO `oc_customer` VALUES
+(1,1,0,1,'Test','User','user@example.com','','$2y$12$b9FgOoktUGZHzNUW/DW0nug8um5gzqq7gDB4IJXxubrFT7kGJ4c66','[]',0,'172.18.0.1',1,0,0,NULL,NULL,'2026-03-15 18:17:55');
 /*!40000 ALTER TABLE `oc_customer` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2221,7 +2223,7 @@ CREATE TABLE `oc_customer_ip` (
   `date_added` datetime DEFAULT NULL,
   PRIMARY KEY (`customer_ip_id`),
   KEY `ip` (`ip`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -2230,6 +2232,8 @@ CREATE TABLE `oc_customer_ip` (
 
 LOCK TABLES `oc_customer_ip` WRITE;
 /*!40000 ALTER TABLE `oc_customer_ip` DISABLE KEYS */;
+INSERT INTO `oc_customer_ip` VALUES
+(1,1,0,'172.18.0.1','','2026-03-15 18:17:55');
 /*!40000 ALTER TABLE `oc_customer_ip` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -6342,7 +6346,7 @@ CREATE TABLE `oc_user_login` (
   `user_agent` varchar(255) DEFAULT NULL,
   `date_added` datetime DEFAULT NULL,
   PRIMARY KEY (`user_login_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -6352,7 +6356,8 @@ CREATE TABLE `oc_user_login` (
 LOCK TABLES `oc_user_login` WRITE;
 /*!40000 ALTER TABLE `oc_user_login` DISABLE KEYS */;
 INSERT INTO `oc_user_login` VALUES
-(1,1,'172.18.0.1','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0','2026-03-01 22:42:51');
+(1,1,'172.18.0.1','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0','2026-03-01 22:42:51'),
+(2,1,'172.18.0.1','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0','2026-03-15 18:09:22');
 /*!40000 ALTER TABLE `oc_user_login` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -14767,4 +14772,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-03-02  2:44:15
+-- Dump completed on 2026-03-15 22:20:14

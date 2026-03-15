@@ -70,6 +70,8 @@ All code changes in this project originate from the official [OpenCart 4.1.0.3] 
 
 The project environment will be available at the +following addresses:
 - **Storefront**: https://localhost
+  - Login: `user@example.com`
+  - Password: `testuser`
 - **Administration**: https://localhost/admin
   - Login: `admin`
   - Password: `admin`
