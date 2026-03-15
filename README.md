@@ -78,14 +78,15 @@ The project environment will be available at the +following addresses:
 
 > [!NOTE]
 >
-> **No Installation Required**. Once the Docker services are up and running, you get a fully functional OpenCart instance immediately.
+> **No Installation Required**  
+> Once the Docker services are up and running, you get a fully functional OpenCart instance immediately.
 
-#### Important: SSL Configuration
+### Important: SSL Configuration
 The project is configured to use **SSL (HTTPS)** by default. To prevent browser connection errors, please choose one of the following options:
 - **Install CA Certificate**: Import the CA certificate located at `.docker/web/ssl/ca.crt` into your operating system's trusted store.
-- **Or use Custom Certificates**: Replace the existing `.docker/web/ssl/localhost.crt` and `.docker/web/ssl/localhost.key` with your own generated certificates for localhost.
+- **Or use Custom Certificates**: Replace the existing `.docker/web/ssl/localhost.crt` and `.docker/web/ssl/localhost.key` with your own generated certificates for `localhost`.
 
-#### Disabling SSL:
+### Disabling SSL:
 If you prefer to use standard HTTP, you can disable SSL by modifying the following configuration files:
 - `www/config.php`: change `https` to `http` on line 6.
 - `www/admin/config.php`: change `https` to `http` on lines 6 and 7.
