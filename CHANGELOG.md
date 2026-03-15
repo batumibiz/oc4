@@ -30,7 +30,7 @@ Entries without a reference link were developed exclusively within the [batumibi
 - [#14818](https://github.com/opencart/opencart/pull/14818) - Safest one just in case the product options are empty.
 - [#14780](https://github.com/opencart/opencart/pull/14780) - Admin Filter Improvements.
 - [#14891](https://github.com/opencart/opencart/pull/14891) - To collect cache files, do it only if the random has fallen to the cleanup.
-- Removed unnecessary dividing lines in forms.
+- [#14915](https://github.com/opencart/opencart/pull/14915) - Add `OPTIMIZE TABLE` to `db.php`.
 - Improved Category and Product search for the Admin panel.
 - Reduced the size of the "Delete" buttons on the 'Links' tab of the product form.
 
