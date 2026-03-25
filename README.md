@@ -91,7 +91,7 @@ The project environment will be available at the following addresses:
 > Please note that GLOB_BRACE is not supported in the Alpine/musl environment.
 > Avoid using this flag in your extensions. As a built-in workaround, you can use the oc_glob() emulator provided in this repository.
 
-### Important: SSL Configuration
+### SSL Configuration
 The project is configured to use **SSL (HTTPS)** by default. To prevent browser connection errors, please choose one of the following options:
 - **Install CA Certificate**: Import the CA certificate located at `.docker/web/ssl/ca.crt` into your operating system's trusted store.
 - **Or use Custom Certificates**: Replace the existing `.docker/web/ssl/localhost.crt` and `.docker/web/ssl/localhost.key` with your own generated certificates for `localhost`.
@@ -101,19 +101,18 @@ If you prefer to use standard HTTP, you can disable SSL by modifying the followi
 - `www/config.php`: change `https` to `http` on line 6.
 - `www/admin/config.php`: change `https` to `http` on lines 6 and 7.
 
-After these changes, the store will be accessible via http://localhost
+After these changes, the store will be accessible via http://localhost and http://localhost/admin.
 
 ### Profiling with XDebug
 You can perform detailed profiling using XDebug to analyze the performance of all subsystems and identify bottlenecks. To enable this, follow these steps:
 
-#### Preparation:
 1. **Enable XDebug Settings**: uncomment lines 2-6 in the configuration file `.docker/web/config/xdebug.ini`.
-2. **Rebuild Containers**: run the following command:
+2. **Rebuild Container**: run the following command:
    ```bash
    make down && make build && make up
    ```
 3. **Browser Extension**: you will need a browser extension to trigger profiling (e.g., [Xdebug Helper](https://chromewebstore.google.com/detail/xdebug-helper-by-jetbrain/aoelhdemabeimdhedkidlnbkfhnhgnhm) or similar).
-4. L**og Location**: detailed profiling logs will be saved in the `.docker/log/xdebug` folder
+4. **Log Location**: detailed profiling logs will be saved in the `.docker/log/xdebug` folder
 5. **Analysis Tools**: To analyze the generated logs, use specialized software such as:  
    [PhpStorm](https://www.jetbrains.com/phpstorm/), [PHP Profiler for VS Code](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode), [KCachegrind](https://kcachegrind.github.io/html/Home.html), [WinCacheGrind](https://sourceforge.net/projects/wincachegrind/), or similar tools.
 
@@ -121,9 +120,9 @@ You can perform detailed profiling using XDebug to analyze the performance of al
 Assuming the preparation steps above are completed...
 1. Open the desired page in your browser (e.g., Homepage: https://localhost).
 2. Refresh the page 2–3 times to "warm up" the cache.
-3. In your **Xdebug Helper** extension, select the "Profile" mode.
+3. In your **Xdebug Helper** extension, select the "**Profile**" mode.
 4. **Profiling**: refresh the page **only once**.
-5. In the extension, switch back to "Disable".
+5. In the extension, switch back to "**Disable**".
 6. The detailed profiling log will be available at:  
    `.docker/log/xdebug/cachegrind.out.XX.gz`
 
