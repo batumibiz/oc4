@@ -29,10 +29,10 @@ Entries without a reference link were developed exclusively within the [batumibi
 - [0a8b25a](https://github.com/opencart/opencart/commit/0a8b25aaedae97e1b21784263527941448724693) - Added some additional form text.
 - [8996eb3](https://github.com/opencart/opencart/commit/8996eb371620c3c7a453872d39a3a815562690f3) - `partially used` - Improved `admin/controller/marketplace/installer.php`.
 - [062ba0e](https://github.com/opencart/opencart/commit/062ba0ee243cc707b51b95e56b69b7f07cda5f7f), [85e8ddb](https://github.com/opencart/opencart/commit/85e8ddb82916cc48a4dcb30fcfcd4a1a9ea9add0) - `partially used` - Updated language methods.
-- Updated dependencies.
 - Refactored the codebase to replace all `glob()` calls using the `GLOB_BRACE` flag with `oc_glob()` emulator to ensure compatibility with Alpine Linux and other musl-based environments where `GLOB_BRACE` is unavailable.
 - Improved Category and Product search for the Admin panel.
 - Reduced the size of the "Delete" buttons on the 'Links' tab of the product form.
+- Updated dependencies.
 
 ### Removed
 - [d342547](https://github.com/opencart/opencart/commit/d34254714d6d08995851f8fec2ea58987ff2e0ae) - `upload/system/helper/filter.php` as unused.
@@ -71,6 +71,7 @@ Entries without a reference link were developed exclusively within the [batumibi
 - The zone name was not displayed in the list
 - The password recovery link in the email was visible as plain text
 - Undefined array key "author" in catalog/controller/product/review.php on line 161
+- ... getProduct(): Argument #1 ($product_id) must be of type int
 
 ### Security
 - Nothing
