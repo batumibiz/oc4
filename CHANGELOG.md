@@ -67,11 +67,12 @@ Entries without a reference link were developed exclusively within the [batumibi
 - [#14903](https://github.com/opencart/opencart/pull/14903) - Fixed `getTotals()`.
 - [#15185](https://github.com/opencart/opencart/pull/15185) - Fix viewing embedded Youtube video.
 - [#forum](https://forum.opencart.com/viewtopic.php?t=235946#p880856) - Error when deleting a product from Wishlist.
-- Fix deprecation warning on PHP 8.4.
+- Deprecation warning on PHP 8.4.
 - The zone name was not displayed in the list
 - The password recovery link in the email was visible as plain text
 - Undefined array key "author" in catalog/controller/product/review.php on line 161
-- ... getProduct(): Argument #1 ($product_id) must be of type int
+- getProduct(): Argument #1 ($product_id) must be of type int
+- PHP Warning:  Undefined array key "en-gb'nvOpzp;..." in catalog/controller/common/language.php
 
 ### Security
 - Nothing
