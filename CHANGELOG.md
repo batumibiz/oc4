@@ -74,6 +74,7 @@ Entries without a reference link were developed exclusively within the [batumibi
 - Undefined array key "author" in catalog/controller/product/review.php on line 161
 - getProduct(): Argument #1 ($product_id) must be of type int
 - PHP Warning:  Undefined array key "en-gb'nvOpzp;..." in catalog/controller/common/language.php
+- Error: Opencart\Admin\Model\Catalog\Product::getDiscounts(): Argument #1 ($product_id) must be of type int
 
 ### Security
 - Nothing
