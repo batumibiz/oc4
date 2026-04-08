@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'batumibiz/oc4',
+        'name' => 'opencart-fixes/oc4',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '0338e191deb73712effd74ff91d15ed981ea504c',
+        'reference' => '54186cab2fc167c3669e3f662d292c022801793c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../../../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'batumibiz/oc4' => array(
+        'opencart-fixes/oc4' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '0338e191deb73712effd74ff91d15ed981ea504c',
+            'reference' => '54186cab2fc167c3669e3f662d292c022801793c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../../../../',
             'aliases' => array(),
@@ -56,9 +56,9 @@
             'dev_requirement' => false,
         ),
         'twig/twig' => array(
-            'pretty_version' => 'v3.23.0',
-            'version' => '3.23.0.0',
-            'reference' => 'a64dc5d2cc7d6cafb9347f6cd802d0d06d0351c9',
+            'pretty_version' => 'v3.24.0',
+            'version' => '3.24.0.0',
+            'reference' => 'a6769aefb305efef849dc25c9fd1653358c148f0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../twig/twig',
             'aliases' => array(),

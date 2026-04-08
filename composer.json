@@ -22,6 +22,6 @@
   "require": {
     "php": ">=8.2",
     "scssphp/scssphp": "^1.13",
-    "twig/twig": "^3.23"
+    "twig/twig": "^3.24"
   }
 }
