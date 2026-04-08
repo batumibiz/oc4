@@ -1,4 +1,7 @@
-# OpenCart 4.1.0.3++
+# OpenCart ++
+
+[![GitHub](https://img.shields.io/github/license/batumibiz/oc4?color=green)](https://github.com/batumibiz/oc4/blob/main/LICENSE)
+[![static analysis](https://github.com/batumibiz/oc4/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/batumibiz/oc4/actions/workflows/static-analysis.yml)
 
 > [!IMPORTANT]
 > **Integration in Progress:** The verified fixes from this repository are currently being merged into the official OpenCart **4.x.x.x** branch.
