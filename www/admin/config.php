@@ -7,7 +7,7 @@ define('HTTP_SERVER', 'https://localhost/admin/');
 define('HTTP_CATALOG', 'https://localhost/');
 
 // DIR
-define('DIR_OPENCART', '/app/www/');
+define('DIR_OPENCART', __DIR__ . '/');
 define('DIR_APPLICATION', DIR_OPENCART . 'admin/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');
