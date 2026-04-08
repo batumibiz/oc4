@@ -80,6 +80,7 @@ Entries without a reference link were developed exclusively within the [batumibi
 - [#15319](https://github.com/opencart/opencart/issues/15319) - getReviewsByProductId(): Argument 2 ($start) must be of type int
 - Error: Invalid session ID
 - Undefined variable `$price_status` in `catalog/controller/api/cart.php`.
+- Undefined variable `$thid` in `catalog/controller/api/order.php`.
 
 ### Security
 - Nothing
