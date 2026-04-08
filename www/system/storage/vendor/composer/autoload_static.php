@@ -20,6 +20,7 @@ class ComposerStaticInit500f4c19ea959e79c114a2ad6f356da6
         'T' =>
         array (
             'Twig\\' => 5,
+            'Tools\\PHPStan\\' => 14,
         ),
         'S' =>
         array (
@@ -33,6 +34,10 @@ class ComposerStaticInit500f4c19ea959e79c114a2ad6f356da6
         'Twig\\' =>
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
+        'Tools\\PHPStan\\' =>
+        array (
+            0 => __DIR__ . '/../../../../..' . '/tools/phpstan',
         ),
         'Symfony\\Polyfill\\Mbstring\\' =>
         array (

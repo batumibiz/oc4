@@ -3,7 +3,7 @@
         'name' => 'opencart-fixes/oc4',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '54186cab2fc167c3669e3f662d292c022801793c',
+        'reference' => '425ab2253cdb61810524bde7751f7e35ba7e753e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../../../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'opencart-fixes/oc4' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '54186cab2fc167c3669e3f662d292c022801793c',
+            'reference' => '425ab2253cdb61810524bde7751f7e35ba7e753e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../../../../',
             'aliases' => array(),

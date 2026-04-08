@@ -20,8 +20,16 @@
     "vendor-dir": "www/system/storage/vendor/"
   },
   "require": {
-    "php": ">=8.2",
+    "php": ">=8.1",
     "scssphp/scssphp": "^1.13",
     "twig/twig": "^3.24"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tools\\PHPStan\\": "tools/phpstan/"
+    }
+  },
+  "scripts": {
+    "static-analysis": "php tools/phpstan.phar analyze"
   }
 }
