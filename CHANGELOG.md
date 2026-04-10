@@ -16,10 +16,11 @@ Entries without a reference link were developed exclusively within the [batumibi
 - [#14857](https://github.com/opencart/opencart/pull/14857), [#14858](https://github.com/opencart/opencart/pull/14858), [#14859](https://github.com/opencart/opencart/pull/14859) - Add manufacturer filter
 - Emulation of `GLOB_BRACE` for Alpine/musl environments:  
   introduced a custom `oc_glob()` helper function to emulate native glob functionality.
-- The `date_added` field has been added to the product form
+- The `date_added` field has been added to the product form.
+- CSS minification, minified versions of CSS are used.
 
 ### Changed
-- Bump minimum PHP version to 8.2 (mentioned on the [#15327](https://github.com/opencart/opencart/issues/15327))
+- Bump minimum PHP version to 8.2 (mentioned on the [#15327](https://github.com/opencart/opencart/issues/15327)).
 - [#14753](https://github.com/opencart/opencart/pull/14753) - Retrieve more in depth files from extension directory for permission.
 - [#14780](https://github.com/opencart/opencart/pull/14780) - Admin Filter Improvements.
 - [#14790](https://github.com/opencart/opencart/pull/14790) - Updated `catalog/language/en-gb/default.php`, added `text_all`.
