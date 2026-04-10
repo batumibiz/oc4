@@ -1,5 +1,5 @@
 /.idea
-/.cache
+/*.cache
 
 # Image cache files
 /www/image/cache/*
