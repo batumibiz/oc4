@@ -19,6 +19,7 @@ Entries without a reference link were developed exclusively within the [batumibi
 - The `date_added` field has been added to the product form
 
 ### Changed
+- Bump minimum PHP version to 8.2 (mentioned on the [#15327](https://github.com/opencart/opencart/issues/15327))
 - [#14753](https://github.com/opencart/opencart/pull/14753) - Retrieve more in depth files from extension directory for permission.
 - [#14780](https://github.com/opencart/opencart/pull/14780) - Admin Filter Improvements.
 - [#14790](https://github.com/opencart/opencart/pull/14790) - Updated `catalog/language/en-gb/default.php`, added `text_all`.
