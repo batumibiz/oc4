@@ -117,21 +117,33 @@ Assuming the preparation steps above are completed...
 
 You can now open this file in your preferred analysis tool to inspect the performance data.
 
-### Static Analysis
-To maintain high code quality and prevent hidden regressions, we use PHPStan.
-It is highly recommended to run this check before submitting any changes.
+### Code Quality
+To maintain high code quality and prevent hidden regressions, we use **PHPStan** for static analysis
+and **PHP-CS-Fixer** for coding standards enforcement.
+It is highly recommended to run these **Full Check** before submitting any changes.
 
 #### Prerequisites:
-- PHP 8.4 (default, but versions 8.1 – 8.4 are supported)
-- Composer (optional)
+- PHP 8.2 – 8.5
+- Composer
 
 #### Run the analysis
-Simply execute the following command in your terminal:
-   ```bash
-   composer static-analysis
-   ```
-Note: You can also run it directly using `php tools/phpstan.phar` if needed.
-
+You can run the full suite or individual checks using the following commands:
+- **Full Check** (Runs both CS and Static Analysis):
+    ```bash
+    composer check
+    ```
+- **Coding Standards Check**:
+    ```bash
+    composer cs-check
+    ```
+- **Coding Standards Fix** (Automatically fixes formatting issues):
+    ```bash
+    composer cs-fix
+    ```
+- **Static Analysis** (Runs PHPStan):
+    ```bash
+    composer static-analysis
+    ```
 
 ## Credits & Sources
 To ensure transparency and acknowledge the work of the community, direct links to original sources or discussions
