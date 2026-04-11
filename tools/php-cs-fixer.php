@@ -5,7 +5,7 @@ $config = new PhpCsFixer\Config();
 return $config
     ->setFinder(PhpCsFixer\Finder::create()
         ->in(__DIR__ . '/../www/')
-        ->exclude([__DIR__ . '/../www/system/storage/vendor/',]))
+        ->exclude(['system/storage/',]))
     ->setRiskyAllowed(true)
     ->setIndent("\t")
     ->setRules([
