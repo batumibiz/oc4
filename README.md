@@ -65,6 +65,7 @@ The project environment will be available at the following addresses:
 - **Administration**: https://localhost/admin
   - Login: `admin`
   - Password: `admin`
+  - Email: `test@example.com`
 - **Mailpit** (Email Testing): http://localhost:8025
 - **Logs**: all service logs (Web server, PHP, etc.) are accessible in the `.docker/log` directory for easy debugging.
 
