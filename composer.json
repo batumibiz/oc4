@@ -18,10 +18,13 @@
   },
   "config": {
     "optimize-autoloader": true,
-    "vendor-dir": "www/system/storage/vendor/"
+    "vendor-dir": "www/system/storage/vendor/",
+    "platform": {
+      "php": "8.1"
+    }
   },
   "require": {
-    "php": ">=8.2",
+    "php": ">=8.1",
     "scssphp/scssphp": "^2.1",
     "twig/twig": "^3.24"
   },
