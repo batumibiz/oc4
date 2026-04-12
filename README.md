@@ -124,7 +124,7 @@ and **PHP-CS-Fixer** for coding standards enforcement.
 It is highly recommended to run these **Full Check** before submitting any changes.
 
 #### Prerequisites:
-- PHP 8.2 – 8.5
+- PHP 8.1 – 8.5
 - Composer
 
 #### Run the analysis
